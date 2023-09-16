@@ -1,5 +1,5 @@
 header{
-    background: #211c3e;
+    background: transparent;
     z-index: 99;
     position: relative;
     .navbar{
@@ -7,7 +7,7 @@ header{
         height: 80px;
         transition: 0.3s height ease-in-out;
         &.fixed-top{
-            background-color: var(--bg-secondary-color);
+            background-color: #211c3e;
             height: 65px;
         }
         .navbar-brand{
