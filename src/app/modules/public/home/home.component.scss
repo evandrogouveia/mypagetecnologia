@@ -33,16 +33,18 @@
 
             &.title {
                 font-size: 38px;
-                color: #56daff;
+                color: #ffffff;
                 margin: 0;
             }
 
         }
 
         h1 {
-            font-size: 100pt;
-            color: #ffffff;
+            font-size: 60pt;
+            color: #56daff;
+            margin-bottom: 15px;
         }
+        
     }
 }
 
@@ -64,6 +66,11 @@
             text-align: center;
             width: 25%;
             padding: 30px;
+            i{
+                font-size: 75px;
+                color: #0a7fd3;
+                margin-bottom: 10px;
+            }
             img{
                 width: 70px;
                 margin-bottom: 20px;
@@ -77,13 +84,13 @@
 }
 
 .ilustration{
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     img{
         width: 90%;
-        margin-top: 50px;
+        margin-top: 80px;
     }
     h2{
-        margin-bottom: 20px;
+        margin:30px 0 20px;
         color: #0a7fd3;
         font-size: 50px;
     }
@@ -101,4 +108,239 @@
             }
         }
     }
+}
+
+.solutions{
+    background-color: #211c3e;
+    padding: 70px 0 60px;
+    h2{
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 20px;
+    }
+    h3{
+        text-align: center;
+        color: #56daff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .card{
+        padding: 30px;
+        border-radius: 0;
+        background-color: transparent;
+        border: none;
+        h4, p{
+            color: #ffffff;
+        }
+        .box-icon{
+            border: 2px solid #56daff;
+            background: rgba(255,255,255,0.1);
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            img{
+                width: 42px;
+            }
+        }
+    }
+    a.nav-link{
+        width: 240px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        i{
+            font-size: 25px;
+        }
+    }
+
+}
+
+a.nav-link{
+    text-align: center;
+    color: #04497a;
+    border: none;
+    background: #56daff;
+    width: 210px;
+    margin: 50px auto 20px;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 500;
+    &:hover{
+        background: #0a7fd3;
+        color: #56daff;
+    }
+}
+
+.plans{
+    padding: 70px 0 60px;
+    h2{
+        text-align: center;
+        color: #0a7fd3;
+    }
+    h3{
+        text-align: center;
+        width: 50%;
+        margin: 15px auto;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    p.text-popular{
+        text-align: center;
+        background-color: #211c3e;
+        padding: 8px;
+        margin-bottom: 0;
+        color: #ffffff;
+    }
+    .card{
+        border-radius: 0;
+        &.np{
+            margin-top: 40px;
+        }
+        .card-header{
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 0;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            border: none;
+            border-top: 8px solid #0a7fd3;
+        }
+        .card-body{
+            background-color: #f9f9f9;
+            padding: 0 0 20px;
+            h4{
+                text-align: center;
+                font-size: 45px;
+                font-weight: 700;
+                background-color: #f9f9f9;
+                padding: 10px 20px 5px;
+                position: relative;
+                color: #0a7fd3;
+                small{
+                    position: relative;
+                    font-size: 18px;
+                    font-weight: 500;
+                    left: 18px;
+                    bottom: 30px;
+                }
+                span{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+            h5{
+                text-align: center;
+                margin: 20px 0;
+            }
+            ul.nav{
+                padding-left: 30px;
+                li.nav-item{
+                    margin-bottom: 15px;
+                    font-weight: 300;
+                    i{
+                        color: #0a7fd3;
+                        margin-right: 5px;
+                        &.bxs-x-circle{
+                            color: rgb(196, 73, 73);
+                        }
+                    }
+                }
+            }
+            p{
+                text-align: center;
+                margin: 0;
+                font-weight: 300;
+                font-size: 14px;
+            }
+        }
+    }
+    .form-orcamento{
+        width: 60%;
+        margin: auto;
+        button.btn-primary{
+            display: block;
+            margin: auto;
+        }
+    }
+}
+.orcamento{
+    margin: 90px 0 50px;
+    h3{
+        width: 85%;
+    }
+}
+
+.portfolio{
+    padding: 70px 0 60px;
+    background-color: #f9f9f9;
+    h2{
+        text-align: center;
+        color: #0a7fd3;
+    }
+    h3{
+        text-align: center;
+        width: 50%;
+        margin: 15px auto 40px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .card{
+        height: 500px;
+        padding: 15px;
+        margin-bottom: 25px;
+        border-radius: 0;
+        overflow: hidden;
+        a.link{
+            height: 100%;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+                transition: all .2s;
+                &:hover{
+                    transform: scale(1.06);
+                }
+            }
+        }
+            
+    }
+}
+
+.faq{
+    padding: 70px 0 60px;
+    h2{
+        text-align: center;
+        color: #0a7fd3;
+        margin-bottom: 40px;
+    }
+    h4{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .btn-primary{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin: 15px auto;
+        i{
+            font-size: 25px;
+        }
+    }
+}
+
+#quemSomos,
+#planos,
+#portfolio,
+#perguntasFrequentes{
+    margin-top: -120px;
+    padding-top: 120px;
 }

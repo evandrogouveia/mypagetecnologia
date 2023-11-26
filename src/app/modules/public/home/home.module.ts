@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { NgxBootstrapModule } from 'src/app/ngx-bootstrap.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { HomeComponent } from './home.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    NgxBootstrapModule
   ]
 })
 export class HomeModule { }
