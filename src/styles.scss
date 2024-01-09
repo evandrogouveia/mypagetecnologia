@@ -41,7 +41,7 @@
 
     &:hover, &:active, &:focus {
         background: #0a7fd3;
-        color: #56daff;
+        color: #92e7ff;
     }
 }
 
@@ -108,5 +108,11 @@ textarea {
             font-weight: 400;
             font-size: 18px;
         }
+    }
+}
+
+@media(max-width: 600px){
+    .panel-group{
+        width: 100%;
     }
 }

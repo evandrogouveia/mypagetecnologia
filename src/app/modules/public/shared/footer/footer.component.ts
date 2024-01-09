@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  toTop(){
+    window.scrollTo(0, 0);
+  }
+  
 }

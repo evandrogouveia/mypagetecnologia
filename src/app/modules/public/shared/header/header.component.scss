@@ -127,7 +127,28 @@ header{
             }
         }
     }
+    .navbar-toggler{
+        border: 1px solid #56daff;
+        outline: none;
+        box-shadow: none;
+        &:hover{
+            background-color: #56daff15;
+        }
+        i{
+            color: var(--bg-white-color);
+            font-size: 28px;
+        }
+    }
+    header{
+        .navbar{
+            .navbar-brand{
+                height: 53px;
+            }
+        } 
+    } 
+
 }
+
 @media(max-width: 767px){
     .topbar{
         display: none;

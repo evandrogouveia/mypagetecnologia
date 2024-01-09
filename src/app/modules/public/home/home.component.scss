@@ -326,11 +326,13 @@ a.nav-link{
         margin-top: 50px;
         font-size: 25px;
     }
-    .btn-primary{
+    a.nav-link{
+        width: 240px;
         display: flex;
         align-items: center;
+        justify-content: center;
         gap: 5px;
-        margin: 15px auto;
+        margin-top: 20px;
         i{
             font-size: 25px;
         }
@@ -343,4 +345,141 @@ a.nav-link{
 #perguntasFrequentes{
     margin-top: -120px;
     padding-top: 120px;
+}
+
+
+
+/*======================= RESPONSIVE =======================*/
+@media(max-width: 991px){
+    .bg-top-home{
+        .wrap-texts{
+            width: 85%;
+            p.title{
+                font-size: 33px;
+            }
+            h1{
+                font-size: 55px;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    } 
+
+    .services{
+        .wrap-sevices{
+            top: -90px;
+            .box-service{
+                padding: 15px;
+                img{
+                    width: 56px;
+                }
+                h2{
+                    font-size: 19px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 19px;
+                }
+            }
+        }
+    } 
+
+    .plans{
+        .card{
+            .card-body{
+                h4{
+                    font-size: 32px;
+                }
+                a.nav-link{
+                    width: 170px;
+                    margin-top: 20px;
+                }
+                ul.nav li.nav-item {
+                    margin-bottom: 8px;
+                }
+            } 
+        } 
+    }
+
+    .orcamento{
+        h3{
+            width: 100%;
+        }
+    }
+
+    .portfolio{
+        h3{
+            width: 80%;
+        }
+    }
+}
+
+@media(max-width: 600px){
+    .bg-top-home{
+        img{
+            height: 80vh;
+            object-fit: cover;
+        }
+        .wrap-texts{
+            h1{
+                font-size: 45px;
+                margin-top: 15px;
+            }
+            p.title{
+                font-size: 28px;
+            }
+            a.nav-link{
+                margin-top: 40px;
+            }
+            p{
+                line-height: 24px;
+            }
+        }
+    }
+    .services{
+        margin-bottom: 20px;
+        .wrap-sevices{
+            flex-direction: column;
+            position: relative;
+            top: 15px;
+            .box-service{
+                width: 100%;
+            }
+        }
+    }
+    .ilustration{
+        img{
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            font-size: 32px;
+        }
+        p{
+            text-align: center;
+        }
+    }
+    .solutions{
+        .card{
+            padding: 15px;
+        }
+    }
+    .plans{
+        h3{
+            width: 100%;
+        }
+        p.text-popular{
+            margin-top: 35px;
+        }
+        .form-orcamento{
+            width: 100%;
+        }
+    }
+    .portfolio{
+        h3{
+            width: 100%;
+        }
+    }
+    
 }

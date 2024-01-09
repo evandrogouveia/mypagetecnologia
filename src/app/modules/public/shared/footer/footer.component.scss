@@ -58,3 +58,37 @@ footer {
         font-size: 14px;
     }
 }
+
+/*======================= RESPONSIVE =======================*/
+@media(max-width: 991px){
+    footer{
+        img{
+            width: 35%;
+            margin: auto;
+            display: block;
+        }
+        p, strong{
+            text-align: center;
+        }
+        strong{
+            margin-top: 40px;
+        }
+        .nav{
+            justify-content: center;
+            li{
+                text-align: center;
+                a{
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 600px){
+    footer{
+        img{
+            width: 70%;
+        }
+    }
+}
