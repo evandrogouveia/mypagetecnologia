@@ -6,14 +6,14 @@ export const perguntasFrequentes = [
             aqueles que buscam um site completo sem desembolsar grandes quantias iniciais.
         `,
         descricao2: `
-        Com mensalidades a partir de R$49,90, você terá à disposição todos os elementos essenciais para o lançamento do seu site, 
+        Com mensalidades a partir de R$39,90, você terá à disposição todos os elementos essenciais para o lançamento do seu site, 
         englobando hospedagem, contas de e-mail, suporte técnico e o design exclusivo da página.<
         `
     },
     {
         titulo: 'O que é a taxa de adesão?',
         descricao1: `
-         A taxa de adesão no montante de R$189,00 é um valor único fundamental para cobrir os gastos associados à mobilização da equipe, 
+         A taxa de adesão no montante de R$169,00 é um valor único fundamental para cobrir os gastos associados à mobilização da equipe, 
             que coleta informações junto ao seu negócio e realiza reuniões de integração.
         `,
         descricao2: `
