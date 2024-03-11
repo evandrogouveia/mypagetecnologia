@@ -1,0 +1,30 @@
+<section>
+    <img src="assets/imgs/logo-250.png" alt="logo Agendaay">
+
+    <ng-container  *ngIf="!sent">
+        <h1 class="text-center my-5">Entrar para lista de espera</h1>
+        <form class="m-auto" [formGroup]="formListaEspera" (ngSubmit)="addEstablishment()">
+            <div class="container">
+                
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome do estabelecimento</label>
+                    <input type="email" class="form-control" id="nome" formControlName="nomeEstabelecimento">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" formControlName="email">
+                </div>
+                <button type="submit" class="btn btn-custom">Enviar</button>
+            </div>
+        </form>
+    </ng-container>
+    
+    <div *ngIf="sent" class="sent mb-5">
+        <h2>PARABÉNS</h2>
+        <img src="assets/icons/parabens.svg" alt="check circle">
+        <h3>Você está na lista de espera.</h3>
+        <h3>Sua primeira mensalidade será grátis.</h3>
+        <p>Verifique em seu e-mail ou caixa de spam a confirmação de cadastro.</p>
+    </div>
+
+</section>
