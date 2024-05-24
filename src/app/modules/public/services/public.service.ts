@@ -10,7 +10,7 @@ export class PublicService {
   constructor(private http: HttpClient) { }
 
   newOrcamento(data: any): Observable<any>{
-    return this.http.post<any>(`https://mypagetecnologia.com.br/api-mypage/orcamento`, data)
+    return this.http.post<any>(`https://cesistemaslegislativo.com.br/api-mypage/orcamento`, data)
     .pipe(
       retry(1),
       catchError((error) => {return error})
