@@ -7,7 +7,7 @@ export const perguntasFrequentes = [
         `,
         descricao2: `
         Com mensalidades a partir de R$39,90, você terá à disposição todos os elementos essenciais para o lançamento do seu site, 
-        englobando hospedagem, contas de e-mail, suporte técnico e o design exclusivo da página.<
+        englobando hospedagem, contas de e-mail, suporte técnico e o design exclusivo da página.
         `
     },
     {

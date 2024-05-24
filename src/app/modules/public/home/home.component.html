@@ -28,8 +28,7 @@
             <div class="box-service">
                 <img src="assets/icons/servico-3.svg" alt="servico">
                 <h2>Sites responsivos</h2>
-                <p>Nossa abordagem de design responsivo garante que sua experiência seja perfeita em qualquer
-                    dispositivo. </p>
+                <p>Nossa abordagem de design responsivo garante que sua experiência seja perfeita em qualquer dispositivo. </p>
             </div>
             <div class="box-service">
                 <img src="assets/icons/servico-4.svg" alt="servico">
@@ -239,20 +238,24 @@
                     mensal.
                 </h3>
 
-                <form class="form-orcamento mt-5">
+                <form class="form-orcamento mt-5" [formGroup]="formOrcamento" (ngSubmit)="sendOrcamento()">
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Seu nome">
+                        <input type="text" class="form-control" [ngClass]="{'is-invalid': submitted && formOrcamento.controls.nome.errors }" placeholder="Seu nome*" formControlName="nome" required>
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Telefone/Whatsapp">
+                        <input type="text" class="form-control" [ngClass]="{'is-invalid': submitted && formOrcamento.controls.telefone.errors }" placeholder="Telefone/Whatsapp*" formControlName="telefone"  mask="(00) 0 0000-0000" required>
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" class="form-control" [ngClass]="{'is-invalid': submitted && formOrcamento.controls.email.errors }" placeholder="Email*" formControlName="email" required>
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" rows="4" placeholder="Mensagem"></textarea>
+                        <textarea class="form-control" rows="4" placeholder="Mensagem" formControlName="mensagem"></textarea>
                     </div>
-                    <button class="btn btn-primary">Quero um orçamento</button>
+                    <p *ngIf="enviadoSucesso || erroEnvio" class="message" [ngClass]="{'green': enviadoSucesso, 'red' : erroEnvio }">{{mensagem}}</p>
+                    <button type="submit" class="btn btn-primary" [disabled]="enviadoSucesso">
+                        {{enviadoSucesso ? 'Enviado' : 'Quero um orçamento'}} 
+                        <i *ngIf="loading" class='bx bx-loader-alt bx-spin bx-flip-vertical' ></i>
+                    </button>
                 </form>
             </div>
         </div>

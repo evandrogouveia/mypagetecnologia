@@ -52,3 +52,42 @@ section{
         }
     }
 }
+
+@media (max-width: 992px) {
+    section{
+        form{
+            width: 48%;
+        }
+        .sent{
+            img{
+                width: 40%;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    section{
+        form{
+            width: 70%;
+        }
+        .sent{
+            img{
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    section{
+        form{
+            width: 95%;
+        }
+        .sent{
+            img{
+                width: 65%;
+            }
+        }
+    }
+}

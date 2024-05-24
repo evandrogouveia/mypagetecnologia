@@ -9,6 +9,7 @@ import { CadastroAgendaayService } from './services/cadastro-agendaay.service';
 })
 export class CadastroAgendaayComponent {
   sent: boolean = false;
+  sending: boolean = false;
 
   constructor(
     private fb: FormBuilder,
@@ -22,11 +23,12 @@ export class CadastroAgendaayComponent {
   });
 
   addEstablishment() {
+    this.sending = true;
     if (this.formListaEspera.valid) {
       this.cadastroAgendaayService.addEstablishment(this.formListaEspera.value).subscribe(
         (next) => {
           this.sent = true;
-          console.log(next);
+          this.sending = false;
         } 
       )
     }

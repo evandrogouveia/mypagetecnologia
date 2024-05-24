@@ -10,6 +10,6 @@ export class CadastroAgendaayService {
   constructor(private http: HttpClient) { }
 
   addEstablishment(data: any): Observable<any> {
-    return this.http.post<any>(`http://localhost:3001/cadastro-estabelecimento`, data);
+    return this.http.post<any>(`https://mypagetecnologia.com.br/api/cadastro-estabelecimento`, data);
   }
 }
