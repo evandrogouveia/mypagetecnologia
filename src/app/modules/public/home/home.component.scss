@@ -322,6 +322,13 @@ p.message{
 
 
 /*======================= RESPONSIVE =======================*/
+@media(min-width: 1855px){
+    .bg-top-home{
+        .wrap-texts{
+            width: 52%;
+        }
+    }
+}
 @media(max-width: 991px){
     .bg-top-home{
         .wrap-texts{
@@ -389,17 +396,14 @@ p.message{
 
 @media(max-width: 600px){
     .bg-top-home{
-        img{
-            height: 80vh;
-            object-fit: cover;
-        }
+        height: 680px;
         .wrap-texts{
+            width: 100%;
+            padding: 10px;
+            top: 16%;
             h1{
-                font-size: 45px;
-                margin-top: 15px;
-            }
-            p.title{
-                font-size: 28px;
+                font-size: 25px;
+                margin-top: 0px;
             }
             a.nav-link{
                 margin-top: 40px;
@@ -411,10 +415,12 @@ p.message{
     }
     .services{
         margin-bottom: 20px;
+        top: -105px;
         .wrap-sevices{
             flex-direction: column;
             position: relative;
             top: 15px;
+            width: 100%;
             .box-service{
                 width: 100%;
             }
@@ -423,6 +429,7 @@ p.message{
     .ilustration{
         img{
             width: 100%;
+            margin-top: 0;
         }
         h2{
             text-align: center;
@@ -430,6 +437,7 @@ p.message{
         }
         p{
             text-align: center;
+            margin-bottom: 30px;
         }
     }
     .solutions{
