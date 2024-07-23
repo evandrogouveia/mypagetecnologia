@@ -1,81 +1,76 @@
 export const perguntasFrequentes = [
     {
-        titulo: 'O que é o site por assinatura?',
+        titulo: 'Quais serviços a MyPage Tecnologia oferece?',
         descricao1: `
-            A opção de assinatura online apresenta-se como a alternativa perfeita para 
-            aqueles que buscam um site completo sem desembolsar grandes quantias iniciais.
+        Oferecemos uma ampla gama de serviços tecnológicos, incluindo desenvolvimento de sites, aplicativos móveis, 
+        soluções de software personalizadas, consultoria em TI, design de UX/UI, manutenção de sistemas e muito mais. 
+        Nosso objetivo é fornecer soluções inovadoras que atendam às necessidades específicas de cada cliente.
         `,
-        descricao2: `
-        Com mensalidades a partir de R$39,90, você terá à disposição todos os elementos essenciais para o lançamento do seu site, 
-        englobando hospedagem, contas de e-mail, suporte técnico e o design exclusivo da página.
-        `
     },
     {
-        titulo: 'O que é a taxa de adesão?',
+        titulo: 'A MyPage Tecnologia desenvolve aplicativos para quais plataformas?',
         descricao1: `
-         A taxa de adesão no montante de R$169,00 é um valor único fundamental para cobrir os gastos associados à mobilização da equipe, 
-            que coleta informações junto ao seu negócio e realiza reuniões de integração.
+        Desenvolvemos aplicativos para Android, iOS e plataformas web. 
+        Nossa equipe é experiente nas tecnologias mais recentes para garantir que seu aplicativo seja compatível e otimizado para todas as plataformas.
         `,
-        descricao2: `
-        Após esse momento inicial, somente a mensalidade será faturada, sem a necessidade de pagamentos adicionais de ativação.
-        `
     },
     {
-        titulo: 'Quanto tempo leva para meu site ficar pronto?',
-        descricao1: `
-        Em geral, nossos clientes desfrutam de seus sites prontos dentro de um prazo que varia de 15 a 20 dias. 
-        A rapidez desse processo está diretamente relacionada à interação dos clientes conosco; 
-        quanto mais ágil for a disponibilização das informações essenciais para o início do desenvolvimento, 
-        mais célere será a entrega final.
-        `,
-        descricao2: ``
+        titulo: 'Como funciona o processo de desenvolvimento de um aplicativo ou sistema?',
+        descricao1: `1. Reunião inicial para entender suas necessidades e objetivos.`,
+        descricao2: `2. Planejamento e design, onde criamos wireframes e protótipos.`,
+        descricao3: `3. Desenvolvimento, onde construímos o aplicativo ou sistema com funcionalidades completas.`,
+        descricao4: `4. Testes rigorosos para garantir que tudo funcione perfeitamente.`,
+        descricao5: `5. Lançamento e manutenção contínua para garantir que seu aplicativo ou sistema esteja sempre atualizado e funcionando sem problemas.`,
     },
     {
-        titulo: 'Não gostei do meu site, o que eu faço?',
+        titulo: 'Quanto tempo leva para desenvolver um aplicativo ou sistema?',
         descricao1: `
-        Sinta-se à vontade para indicar os aspectos que não agradaram em seu site, 
-        e nossa equipe de desenvolvimento estará pronta para realizar os ajustes conforme suas preferências, 
-        garantindo que o resultado final seja do seu agrado.
+        O tempo de desenvolvimento pode variar dependendo da complexidade e das funcionalidades desejadas do aplicativo ou sistema. 
+        Em média, um aplicativo ou sistema pode levar de 2 a 6 meses para ser desenvolvido. Projetos mais complexos podem levar mais tempo.
         `,
-        descricao2: ``
     },
     {
-        titulo: 'Posso fazer a migração do meu plano de assinatura?',
+        titulo: 'Como é o suporte pós-lançamento?',
         descricao1: `
-        Certamente, você pode realizar a migração do seu plano de assinatura. 
-        Estamos aqui para facilitar essa transição e garantir que você tenha o plano que melhor atenda às suas necessidades. 
+        Oferecemos suporte contínuo pós-lançamento para garantir que seu aplicativo esteja sempre atualizado e funcione sem problemas. 
+        Nosso suporte inclui correção de bugs, atualizações de segurança, melhorias de performance e novas funcionalidades conforme necessário.
         `,
-        descricao2: ` Se precisar de assistência ou tiver dúvidas sobre os detalhes do processo de migração, 
-        nossa equipe de suporte estará pronta para ajudar.`
     },
     {
-        titulo: 'Após meu site ir pro ar, posso solicitar alterações no mesmo?',
+        titulo: 'Quais são os custos envolvidos no desenvolvimento de um aplicativo?',
         descricao1: `
-        Sim! Nossos planos incluem serviços de manutenção, os quais podem ser empregados para realizar modificações 
-        evolutivas em seu próprio site. 
+        Os custos variam de acordo com a complexidade do projeto, as funcionalidades necessárias e a plataforma escolhida. 
+        Oferecemos orçamentos personalizados com base nas suas necessidades específicas. Entre em contato conosco para uma cotação detalhada.
         `,
-        descricao2: `Estamos aqui para garantir que as atualizações e ajustes necessários sejam feitos de acordo com suas preferências e requisitos.`
     },
     {
-        titulo: 'Tem período de fidelidade nos planos?',
+        titulo: 'Como posso começar um projeto com a MyPage Tecnologia?',
         descricao1: `
-        Não, nossos planos não têm período de fidelidade. 
-        Entendemos a importância da flexibilidade para nossos clientes, e você é livre para ajustar ou cancelar seu plano 
-        conforme necessário, sem restrições de período de fidelidade.
+        Para iniciar um projeto, basta entrar em contato conosco através do nosso formulário de contato no site, e-mail ou telefone. 
+        Nossa equipe terá prazer em agendar uma reunião inicial para discutir seus requisitos e como podemos ajudar a transformar sua ideia em realidade.
         `,
-        descricao2: `Caso cancele seu plano de assinatura, seu site será desativado e sairá do ar, 
-        podendo ser ativado novamente caso opte por assinar o plano novamente.`
     },
     {
-        titulo: 'Posso ter uma loja e-commerce por assinatura?',
+        titulo: 'A MyPageTecnologia oferece consultoria em TI?',
         descricao1: `
-        
-        Sim, claro! Oferecemos a opção de loja virtual por assinatura. Com nossos planos, 
-        você terá acesso a uma plataforma completa para iniciar e gerenciar sua loja online, 
-        incluindo recursos como hospedagem, suporte técnico e personalização do layout. 
-        E
+        Sim, oferecemos serviços de consultoria em TI para ajudar empresas a otimizar suas operações, implementar novas tecnologias, 
+        e melhorar a eficiência e a segurança de seus sistemas. Nossa equipe de especialistas está pronta para fornecer orientação 
+        estratégica e soluções práticas.
         `,
-        descricao2: `Estamos aqui para apoiar o sucesso do seu negócio online. 
-        Se tiver mais perguntas ou precisar de assistência, estamos à disposição.`
+    },
+    {
+        titulo: 'Vocês trabalham com startups?',
+        descricao1: `
+        Sim, adoramos trabalhar com startups! Entendemos os desafios únicos enfrentados por startups e oferecemos 
+        soluções escaláveis que podem crescer junto com o seu negócio. 
+        Nosso objetivo é ajudar startups a lançar produtos de alta qualidade rapidamente e de forma eficiente.
+        `,
+    },
+    {
+        titulo: 'A MyPage Tecnologia oferece treinamento para uso das soluções desenvolvidas?',
+        descricao1: `
+        Sim, fornecemos treinamento completo para garantir que sua equipe esteja totalmente preparada para utilizar as soluções que desenvolvemos. 
+        Nosso treinamento é realizado online em plataformas de videoconferência conforme disponibilidade programada pelo cliente.
+        `,
     },
 ]
